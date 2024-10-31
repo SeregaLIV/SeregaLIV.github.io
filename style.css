@@ -1,0 +1,70 @@
+body {
+    background-color: #f8f9fa; /* Светлый фон */
+    font-family: 'Arial', sans-serif;
+    color: #333; /* Темный текст */
+}
+
+header {
+    background-color: #343a40; /* Темно-серый фон для заголовка */
+    color: #ffffff; /* Белый текст */
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff; /* Белый цвет ссылок */
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #adb5bd; /* Светло-серый при наведении */
+}
+
+h2 {
+    color: #343a40; /* Темно-серый для заголовка */
+}
+
+/* Локальные стили для блоков */
+.skills, .traits {
+    position: fixed; /* Фиксированное положение */
+    width: 300px; /* Увеличенная ширина блока */
+    height: auto; /* Автоматическая высота */
+    max-height: 400px; /* Максимальная высота блока */
+    background: #ffffff; /* Белый фон */
+    border: 1px solid #dee2e6; /* Светло-серая граница */
+    border-radius: 10px; /* Закругленные углы */
+    padding: 20px; /* Внутренний отступ */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Тень для блока */
+    z-index: 10; /* Слой поверх остальных элементов */
+    overflow-y: auto; /* Прокрутка для длинного текста */
+}
+
+.skills {
+    right: 20px; /* Отступ от правого края для навыков */
+    top: 100px; /* Отступ от верхнего края для навыков */
+}
+
+.traits {
+    right: 330px; /* Прислоняем блок к левому краю блока "навыков" */
+    top: 100px; /* Отступ от верхнего края для черт характера */
+}
+
+h3 {
+    color: #007bff; /* Синий цвет для заголовков */
+    margin-top: 0; /* Убираем верхнее поле для заголовка */
+}
+
+ul {
+    list-style-type: disc; /* Круглые маркеры для списка */
+    padding-left: 20px; /* Отступ слева для списка */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #343a40; /* Темно-серый фон для футера */
+    color: #ffffff; /* Белый текст */
+}
